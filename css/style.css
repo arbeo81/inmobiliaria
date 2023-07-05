@@ -92,11 +92,19 @@ h4 {
 }
 
 .buttom-yellow {
-    background-color: #e08709;
+    background-color: #fded08;
+}
+
+.buttom-yellow:hover {
+    background-color: #b69b03;
 }
 
 .buttom-green {
-    background-color: #71b100;
+    background-color: #b69b03;
+}
+
+.buttom-green:hover {
+    background-color: #fded08;
 }
 
 /* Header */
@@ -170,7 +178,7 @@ h4 {
 }
 
 .navigation a:hover {
-    color: #780;
+    color: rgb(255, 217, 0);
 }
 
 /** Mobile Menu **/
@@ -303,6 +311,16 @@ h4 {
 
 .conteiner-contact p {
     font-size: 1.8rem;
+}
+
+.telefono{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.email{
+    font-size: 2rem;
+    margin: 10px;
 }
 
 /* blog */
